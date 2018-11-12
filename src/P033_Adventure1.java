@@ -5,8 +5,6 @@ import java.util.Scanner;
  */
 public class P033_Adventure1 {
     public static void main(String[] args) {
-        String kitchen;
-        String upstairs;
         String answer;
 
         System.out.println("You are in a creepy old house! Would you like to go into the kitchen or upstairs?");

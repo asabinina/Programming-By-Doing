@@ -9,7 +9,7 @@ public class P004_GoodFirstProgram
         //System.out.println( "Yay! Printing." );
         //System.out.println( "I'd much rather you 'not'." );
         //System.out.println( "I \"said\" do not touch this." );
-        System.out.println("I love Lion!");
+        System.out.println("I love Lily!");
 
     }
 }
