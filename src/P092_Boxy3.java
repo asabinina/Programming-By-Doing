@@ -8,15 +8,24 @@ import javax.swing.JFrame;
 class P092_Boxy3 extends Canvas {
     public void paint(Graphics window) {
         //                  color       x    y   w   h
-        drawBox(window, Color.YELLOW, 200, 300, 50, 30);
-        drawBox(window, Color.GREEN, 400, 220, 30, 150);
-
-        // draw six more boxes -- different colors, different places, different sizes
+        drawBox(window, Color.YELLOW, 280, 300, 30, 38);
+        drawBox(window, Color.GREEN, 400, 320, 100, 150);
+        drawBox(window, Color.RED, 200, 399, 900, 600);
+        drawBox(window, Color.BLUE, 490, 270, 30, 150);
+        drawBox(window, Color.PINK, 400, 220, 30, 159);
+        drawBox(window, Color.ORANGE, 600, 400, 90, 500);
+        drawBox(window, Color.PINK, 500, 500, 600, 70);
+        drawBox(window, Color.PINK, 400, 220, 30, 150);
     }
 
-    public void drawBox(Graphics window, Color c, int x, int y, int w, int h) {
-        // add code to draw a WxH box in color c at (x,y)
+    public void drawBox( Graphics window, Color c, int x, int y , int w, int h )
+    {
+        window.setColor(c);
+        window.fillRect(x,y,w,h);
+        window.setColor(Color.WHITE);
+        window.fillRect(x+10,y+10,w-20,h-20);
     }
+
 
 
     public static void main(String[] args) {

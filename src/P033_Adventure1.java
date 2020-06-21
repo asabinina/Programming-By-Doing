@@ -71,7 +71,3 @@ public class P033_Adventure1 {
         }
     }
 }
-
-
-
-

@@ -9,14 +9,26 @@ public class P090_Boxy1 extends Canvas
 {
     public void paint( Graphics window )
     {
-        // this code draws a 100x100 box in blue at (200,300)
         window.setColor(Color.BLUE);
         window.fillRect(200,300,100,100);
-        // this code "erases" the center of the box by painting over it in white
         window.setColor(Color.WHITE);
         window.fillRect(210,310,80,80);
 
-        // draw three more boxes -- different colors, different places
+        window.setColor(Color.red);
+        window.fillRect(400,300,100,100);
+        window.setColor(Color.WHITE);
+        window.fillRect(410,310,80,80);
+
+        window.setColor(Color.yellow);
+        window.fillRect(400,190,100,100);
+        window.setColor(Color.WHITE);
+        window.fillRect(410,200,80,80);
+
+        window.setColor(Color.green);
+        window.fillRect(200,190,100,100);
+        window.setColor(Color.WHITE);
+        window.fillRect(210,200,80,80);
+
     }
 
     public static void main( String[] args )

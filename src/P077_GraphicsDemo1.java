@@ -11,6 +11,8 @@ public class P077_GraphicsDemo1 extends Canvas
         g.setColor(Color.blue);
         g.fillRect(200,400,200,20); // a filled-in rectangle
         g.drawOval(200,430,200,100);
+        g.setColor(new Color(255, 96, 162));
+        g.fillOval(199,280,200,100);// a filled-in oval
 
         g.setColor(Color.black);
         g.drawString("Graphics are pretty neat.", 500, 100);

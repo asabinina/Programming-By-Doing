@@ -62,4 +62,3 @@ public class P063_Adventure2 {public static void main(String[] args )
 }
 
 }
-

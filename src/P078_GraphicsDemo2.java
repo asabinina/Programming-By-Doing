@@ -20,6 +20,8 @@ public class P078_GraphicsDemo2 extends Canvas
         g.setColor(Color.yellow);
         g.fillArc(150,400,150,150,45,270); // chomp
 
+        g.setColor(new Color(230, 171, 180));
+        g.fillArc(50,475,120,120,235,270); // chomp
         // custom colors
         Color myOrange = new Color(71, 230, 222); // amount of red, green, blue in the color
         // Each component has a value from 0-255
@@ -30,7 +32,7 @@ public class P078_GraphicsDemo2 extends Canvas
         g.setColor(myGrey);
         g.fillOval(550,100,50,50);
 
-        g.setColor(Color.yellow);
+        g.setColor(new Color(185, 255, 243));
         g.fillOval(500,210,150,150);
 
         g.setColor(Color.green);
